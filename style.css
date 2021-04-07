@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* BOX MODEL */
+
+/* Task 1: Give the button:
+
+- 4px border with solid style and color of #078080
+- Left and right padding: 8px, top and bottom padding: 12px
+- Left and right margin: 12px, top and bottom margin: 16px
+
+Task 2: Fix overlapping issue while still keeping the element inline
+
+Task 3: Add another button right the first one. Give them `block` display and `fit-content` width, observe the margin. 
+
+Then, align the first button in the middle of the row and the second button at the bottom of the row.
+
+Task 4: Change the CSS so that the buttons have a width of 120px   */
+
+a {
+  text-decoration: none;
+  color: #078080;
+  background-color: #fef6e4;
+}
